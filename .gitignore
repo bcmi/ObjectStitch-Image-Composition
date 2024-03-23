@@ -1,4 +1,4 @@
 checkpoints/*/
 checkpoints/*.pth
 *.egg-info/
-*/*/__pycache__
+*__pycache__/
