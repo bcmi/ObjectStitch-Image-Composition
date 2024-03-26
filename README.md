@@ -20,7 +20,7 @@ Our implementation is built upon [Paint-by-Example](https://github.com/Fantasy-S
     cd ObjectStitch-Image-Composition
     pip install -r requirements.txt
     cd src/taming-transformers
-    python setup.py install
+    pip install -e .
     ```
 
 ### 2.  Download Models
