@@ -17,7 +17,7 @@ Our implementation is built upon [Paint-by-Example](https://github.com/Fantasy-S
   - pytorch_lightning==1.8.1
   - install dependencies:
     ```bash
-    cd ControlCom-Image-Composition
+    cd ObjectStitch-Image-Composition
     pip install -r requirements.txt
     cd src/taming-transformers
     python setup.py install
