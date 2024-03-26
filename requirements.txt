@@ -1,9 +1,7 @@
 academictorrents==2.3.3
 albumentations==0.4.3
 clip==0.2.0
-clip.egg==info
 einops==0.3.0
-lightning_fabric==2.2.1
 natsort==8.4.0
 numpy==1.22.4
 omegaconf==2.3.0
