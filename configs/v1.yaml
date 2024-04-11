@@ -75,7 +75,7 @@ model:
 
 data:
   target: ldm.data.datamodule.DataModuleFromConfig
-  dataset_dir: &dataset_dir /mnt/new/397927/dataset/open-images
+  dataset_dir: path-to-openimages
   params:
       batch_size: 16
       num_workers: 16
@@ -90,7 +90,7 @@ data:
           target: ldm.data.open_images.COCOEEDataset
           params:
               split: test
-              dataset_dir: /mnt/new/397927/dataset/cocoee
+              dataset_dir: path-to-cocoee
               image_size: 512
       test:
           target: ldm.data.open_images.OpenImageDataset
