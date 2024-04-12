@@ -70,7 +70,11 @@ In total, our model is trained on approximately 1.8 million pairs of foreground 
  
 ### 5. Training
 
-If you need training code, please send email to bo-zhang@sjtu.edu.cn. 
+- **Download link**:
+  - [Google Drive](https://drive.google.com/file/d/12Q0SHybm3mnd8d84wXEFVU2zRfjtp00K/view?usp=sharing)
+  - [Baidu Netdisk](https://pan.baidu.com/s/1jKLt1yJfPMQExAzlgM3VLQ?pwd=b5ro)
+
+**Notes**: certain sensitive information has been removed since the model training was conducted within a company. To start training, you'll need to prepare your own training data and make necessary modifications to the code according to your requirements.
 
 ## Visualization Results
 
