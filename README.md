@@ -1,7 +1,7 @@
 # ObjectStitch-Image-Composition
 This is an unofficial implementation of the paper ["ObjectStitch: Object Compositing with Diffusion Model"](https://openaccess.thecvf.com/content/CVPR2023/papers/Song_ObjectStitch_Object_Compositing_With_Diffusion_Model_CVPR_2023_paper.pdf), CVPR 2023. Following ObjectStitch, our implementation takes masked foregrounds as input and utilizes both class tokens and patch tokens as conditional embeddings. The content adapter in ObjectStitch is implemented using five stacked Transformer blocks in our codebase. The output shape of our adapter is 257×768, where 257 represents the number of embeddings, and 768 denotes the embedding dimension. We adopt a similar data preparation pipeline to generate and augment training data. Since ObjectStitch does not release their training dataset, we train our models on a large-scale public dataset, [Open-Images](https://storage.googleapis.com/openimages/web/index.html). Moreover, to reduce training costs, we have merged the three-stage training procedure described in the original paper into a single end-to-end process in our implementation.
 
-For better detail preservation and controllability, you can refer to our [ControlCom](https://github.com/bcmi/ControlCom-Image-Composition). 
+For better detail preservation and controllability, you can refer to our [ControlCom](https://github.com/bcmi/ControlCom-Image-Composition). **ObjectStitch and ControlCom have been integrated into our image composition toolbox libcom https://github.com/bcmi/libcom. Welcome to visit and try ＼(^▽^)／** 
 
 
 ## Introduction
@@ -68,7 +68,7 @@ In total, our model is trained on approximately 1.8 million pairs of foreground 
   - keep the same filenames for each pair of data. 
   - either the ``mask_bbox`` folder or the ``bbox`` folder is sufficient.
  
-### 5. Training
+### 5. Training Code
 
 - **Download link**:
   - [Google Drive](https://drive.google.com/file/d/12Q0SHybm3mnd8d84wXEFVU2zRfjtp00K/view?usp=sharing)
