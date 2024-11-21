@@ -7,6 +7,8 @@ ObjectStitch is very robust and adept at adjusting the pose/viewpoint of inserte
 
 For better detail preservation and controllability, you can refer to our [ControlCom](https://github.com/bcmi/ControlCom-Image-Composition) and [MureObjectStitch](https://github.com/bcmi/MureObjectStitch-Image-Composition). **ControlCom and MureObjectStitch have been integrated into our image composition toolbox libcom https://github.com/bcmi/libcom. Welcome to visit and try ＼(^▽^)／** 
 
+**Note that in the provided foreground image, the foreground object should occupy the whole foreground image (see our example), otherwise the performance would be severely affected.**
+
 
 ## Introduction
 
