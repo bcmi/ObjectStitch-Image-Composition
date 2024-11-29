@@ -75,7 +75,7 @@ model:
 
 data:
   target: ldm.data.datamodule.DataModuleFromConfig
-  dataset_dir: path-to-openimages
+  dataset_dir: &dataset_dir path-to-openimages
   params:
       batch_size: 16
       num_workers: 16
