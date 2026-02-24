@@ -7,6 +7,11 @@ ObjectStitch is very robust and adept at adjusting the pose/viewpoint of inserte
 
 **Note that in the provided foreground image, the foreground object's length and width should fully extend to the edges of the image (see our example), otherwise the performance would be severely affected.**
 
+## Online Demo
+
+Try this [online demo](http://libcom.ustcnewly.com/) for image composition (object insertion) built upon [libcom](https://github.com/bcmi/libcom) toolbox and have fun!
+
+[![]](https://github.com/user-attachments/assets/87416ec5-2461-42cb-9f2d-5030b1e1b5ec)
 
 ## Introduction
 
