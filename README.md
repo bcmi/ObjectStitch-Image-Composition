@@ -7,6 +7,8 @@ ObjectStitch is very robust and adept at adjusting the pose/viewpoint of inserte
 
 **Note that in the provided foreground image, the foreground object's length and width should fully extend to the edges of the image (see our example), otherwise the performance would be severely affected.**
 
+We have extended ObjectStitch to [OSInsert](https://github.com/bcmi/OSInsert-Image-Composition), which can achieve both high-fidelity (keep the appearance details of reference image) and high-authenticity (adjust foreground pose/viewpoint according to the background).
+
 ## Online Demo
 
 Try this [online demo](http://libcom.ustcnewly.com/) for image composition (object insertion) built upon [libcom](https://github.com/bcmi/libcom) toolbox and have fun!
