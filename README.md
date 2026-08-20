@@ -1,4 +1,10 @@
 # ObjectStitch-Image-Composition
+
+Welcome to scan the WeChat QR code to join the discussion group on image composition/compositing, object insertion/addition.
+<p align="center">
+<img width="150" height="150" alt="Image" src="https://github.com/user-attachments/assets/8572a7c4-0f62-4a5f-bc06-9a1d9fcb14e3" />
+</p>
+
 **This is an unofficial implementation of the paper ["ObjectStitch: Object Compositing with Diffusion Model"](https://openaccess.thecvf.com/content/CVPR2023/papers/Song_ObjectStitch_Object_Compositing_With_Diffusion_Model_CVPR_2023_paper.pdf), CVPR 2023.**
 
 Following ObjectStitch, our implementation takes masked foregrounds as input and utilizes both class tokens and patch tokens as conditional embeddings. Since ObjectStitch does not release their training dataset, we train our models on a large-scale public dataset [Open-Images](https://storage.googleapis.com/openimages/web/index.html). 
